@@ -70,6 +70,14 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
+    title: "E-Commerce App",
+    des: "Explore a sleek and modern online shopping platform designed for simplicity and ease of use. ShopEase offers a variety of products with a user-friendly interface and responsive design, ensuring a seamless shopping experience across all devices. Browse product categories, add items to your cart, and enjoy a secure checkout process. Whether you're looking for the latest trends or everyday essentials, ShopEase is your one-stop destination for hassle-free online shopping.",
+    img: "/p7.svg",
+    iconLists: ["/re.svg", "/tail.svg","/redux.svg","ts.svg"],
+    link: "https://stweekfour-e-commerce-app.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Animated Syncfusion Dashboard",
     des: "Transform your data visualization experience with the ASD. Effortlessly track, analyze, and manage your data with interactive and visually appealing charts, tables, and graphs.",
     img: "/p1.svg",
@@ -77,7 +85,7 @@ export const projects = [
     link: "https://mahmoud-moghazy.github.io/syncfusion_dashboard/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Yoom - Video Conferencing App",
     des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
     img: "/p2.svg",
@@ -85,7 +93,15 @@ export const projects = [
     link: "https://yoom-puce.vercel.app/sign-in?redirect_url=https%3A%2F%2Fyoom-puce.vercel.app%2F",
   },
   {
-    id: 3,
+    id: 4,
+    title: "Weather App",
+    des: "Stay updated with real-time weather forecasts using WeatherNow, a sleek and intuitive weather app. Quickly check current conditions, temperature, and forecasts for your location or any city worldwide. With a responsive design and user-friendly interface, WeatherNow ensures you’re always prepared for what’s ahead, whether it’s sunny skies or stormy weather. Experience weather updates made simple, fast, and accessible on any device.",
+    img: "/p8.svg",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg"],
+    link: "https://stweekfour-weather-app.vercel.app/",
+  },
+  {
+    id: 5,
     title: "Live Docs",
     des: "Create, edit, and share your documents with ease. Invite others to collaborate on your articles, add comments, and react to those comments for seamless teamwork.",
     img: "/p3.svg",
@@ -93,7 +109,7 @@ export const projects = [
     link: "https://live-docs-ebon.vercel.app/",
   },
   {
-    id: 4,
+    id: 6,
     title: "Animated Apple Iphone 3D Website",
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
@@ -101,7 +117,7 @@ export const projects = [
     link: "https://apple-simulate.vercel.app/",
   },
   {
-    id: 5,
+    id: 7,
     title: "Gerich Restaurant",
     des: "Experience gourmet dining at Gerich Restaurant. Savor our exquisite menu, enjoy a luxurious ambiance, and indulge in exceptional service for a memorable culinary journey.",
     img: "/p5.svg",
@@ -109,7 +125,7 @@ export const projects = [
     link: "https://mahmoud-moghazy.github.io/gerich-restaurant/",
   },
   {
-    id: 6,
+    id: 8,
     title: "Games",
     des: "Dive into a world of fun and entertainment with our extensive collection of games. Enjoy hours of gameplay, challenge your friends, and explore new adventures.",
     img: "/p6.svg",
